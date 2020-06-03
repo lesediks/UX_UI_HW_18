@@ -1,0 +1,192 @@
+.inlineblock {display: inline-block; vertical-align: top;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left:0;
+  width: 100%; /* Full width */
+  height: 55px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  z-index:1 
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+float: left;
+color: #5D8D8A;
+text-align: center;
+padding: 16px 16px;
+text-decoration: none;
+font-size: 18px;
+font-family: lato, sans-serif;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+margin-right: 60px;}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  height: 64px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+.hero {
+    padding: 100px;
+    background: #FFFFFF;
+    margin: 0 0;
+    width: 100%;
+  }
+  
+.about {
+  padding: 100px;
+  background: #E8DFCF;
+  margin: 0 0;
+  width: 100%;
+}
+
+.work {
+  padding: 100px;
+  background: #9BC6C5;
+  margin: 0 0;
+  width: 100%;
+}
+
+.contact {
+  padding: 100px;
+  background: #ffffff;
+  margin: 0 0;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+section {
+  display: block;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Float four columns side by side */
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+  }
+
+.column2 {
+    padding: 10px;
+    float: left;
+    width: 50%
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .column2 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  /* Style the counter cards */
+.card {
+    background: #FFFFFF; 
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    padding: 16px;
+    text-align: center;
+  }
+
+.card2 {
+  padding: 16px;
+  }
+
+h1{position: relative;
+  top: 120px;
+  bottom: 120px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'liga' off;
+  color: #5D8D8A;"
+  }
+
+h2 {position: relative;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: regular;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'liga' off;
+  color: #221D23;
+  }
+
+h3 {font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 31px;
+  /* or 111% */
+  letter-spacing: 0.03em;
+  font-feature-settings: 'liga' off;
+  color: #221D23;
+  }
+
+p {
+  font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 31px;
+/* or 148% */
+
+letter-spacing: 0.03em;
+font-feature-settings: 'liga' off;color:#221D23; position: relative; max-width: 1200px;}
